@@ -1,0 +1,80 @@
+{
+    "dashboard": {
+        "states": [
+            {
+                "label": "{{binaryInputEnable.value}}"
+            }
+        ],
+        "actions": [],
+        "basicPlus": []
+    },
+    "detailView": [
+        {
+            "label": "Binary Input: Motion Sensor",
+            "displayType": "toggleSwitch",
+            "toggleSwitch": {
+                "command": {
+                    "name": "setBinaryInputEnable",
+                    "on": "Enabled",
+                    "off": "Disabled",
+                    "argumentType": "string"
+                },
+                "state": {
+                    "value": "binaryInputEnable.value",
+                    "valueType": "string",
+                    "on": "Enabled",
+                    "off": "Disabled"
+                }
+            },
+            "state": null
+        }
+    ],
+    "automation": {
+        "conditions": [
+            {
+                "label": "Binary Input: Motion Sensor",
+                "displayType": "list",
+                "list": {
+                    "alternatives": [
+                        {
+                            "key": "Enabled",
+                            "value": "Enabled",
+                            "type": "active"
+                        },
+                        {
+                            "key": "Disabled",
+                            "value": "Disabled",
+                            "type": "active"
+                        }
+                    ],
+                    "value": "binaryInputEnable.value",
+                    "valueType": "string"
+                }
+            }
+        ],
+        "actions": [
+            {
+                "label": "Binary Input: Motion Sensor",
+                "displayType": "list",
+                "list": {
+                    "alternatives": [
+                        {
+                            "key": "Enabled",
+                            "value": "Enabled",
+                            "type": "active"
+                        },
+                        {
+                            "key": "Disabled",
+                            "value": "Disabled",
+                            "type": "active"
+                        }
+                    ],
+                    "command": "setBinaryInputEnable",
+                    "argumentType": "string"
+                }
+            }
+        ]
+    },
+    "id": "legendabsolute60149.binaryInputEnable",
+    "version": 1
+}

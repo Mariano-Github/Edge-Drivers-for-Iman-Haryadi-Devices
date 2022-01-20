@@ -1,0 +1,47 @@
+{
+    "dashboard": {
+        "states": [
+            {
+                "label": "{{binaryinput.value}}"
+            }
+        ],
+        "actions": [],
+        "basicPlus": []
+    },
+    "detailView": [
+        {
+            "label": "Binary Input: Motion Sensor",
+            "displayType": "state",
+            "state": {
+                "label": "{{binaryinput.value}}"
+            }
+        }
+    ],
+    "automation": {
+        "conditions": [
+            {
+                "label": "Binary Input: Motion Sensor",
+                "displayType": "list",
+                "list": {
+                    "alternatives": [
+                        {
+                            "key": "Active",
+                            "value": "Active",
+                            "type": "active"
+                        },
+                        {
+                            "key": "Inactive",
+                            "value": "Inactive",
+                            "type": "active"
+                        }
+                    ],
+                    "value": "binaryinput.value",
+                    "valueType": "string"
+                }
+            }
+        ],
+        "actions": []
+    },
+    "id": "legendabsolute60149.binaryInput",
+    "version": 1
+}
