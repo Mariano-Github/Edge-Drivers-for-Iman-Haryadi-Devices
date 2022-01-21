@@ -37,6 +37,7 @@ Moisture Percentage of the soil probe
 Analog Output: Controllable output of 3 vdc or 0vdc
 
 This is the Link to Edge driver Channel
+"Zigbee Environment Sensor"
 
 https://account.smartthings.com/?redirect=https%3A%2F%2Fapi.smartthings.com%2Finvite%2FakMX10g0GA2b%3F
 
