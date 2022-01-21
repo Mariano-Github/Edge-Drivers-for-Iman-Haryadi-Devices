@@ -40,22 +40,24 @@ This is the Link to Edge driver Channel
 
 https://account.smartthings.com/?redirect=https%3A%2F%2Fapi.smartthings.com%2Finvite%2FakMX10g0GA2b%3F
 
-  With Edge Driver "Zigbee Environment Sensor"
- ![Screenshot_20220111-133638](https://user-images.githubusercontent.com/74271621/150534286-f6d3c3e9-7a39-442b-af0c-48db3d4fdf19.png)
+![Screenshot_20220111-133638 -2png](https://user-images.githubusercontent.com/74271621/150535523-ceb1295b-d6cf-43d2-9fc4-4ec91190cee2.png)
+
 
 
 - Can be used as Environment Sensor withot External inputs and output:
 
     -  As Temperature, Humidity, Atmospheric pressure and Illuminance, with Edge Driver "Zigbee Temp Humidity Sensor Mc"
     
-    ![Screenshot_20220107-183133](https://user-images.githubusercontent.com/74271621/150534415-59f7fd91-07e8-4e4f-8a62-9d2edfa8605a.png)
+![Screenshot_20220107-183133-2](https://user-images.githubusercontent.com/74271621/150535340-65674c3f-678e-4bfb-86d5-958b57716bf6.png)
+
 
 
     -  As Complete Thermostat working locally, with Edge Driver "Zigbee Temp Sensor with Thermostat Mc"
-   ![Screenshot_20220121-131710-2](https://user-images.githubusercontent.com/74271621/150534721-448941e0-bd94-4900-b1df-bb5189fb27a4.png)
+    ![Screenshot_20220121-131710-2](https://user-images.githubusercontent.com/74271621/150534721-448941e0-bd94-4900-b1df-bb5189fb27a4.png)
 
    
-   ![Screenshot_20220121-131731](https://user-images.githubusercontent.com/74271621/150534463-5bc93948-a108-4b55-991e-9f090b6ed77c.png)
+    ![Screenshot_20220121-131731-2](https://user-images.githubusercontent.com/74271621/150535424-3ec68e96-aada-4ddc-b9e8-e59723e04e25.png)
+
 
 
 ## Supported deviced (jan 2022)
