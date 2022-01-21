@@ -53,6 +53,9 @@ https://account.smartthings.com/?redirect=https%3A%2F%2Fapi.smartthings.com%2Fin
 
 - As Complete Thermostat working locally, with Edge Driver "Zigbee Temp Sensor with Thermostat Mc"
 
+![Screenshot_20220121-131710-2](https://user-images.githubusercontent.com/74271621/150535904-588d5fc3-0f13-410a-b1a0-9d3f748b2294.png)
+
+![Screenshot_20220121-131731-2](https://user-images.githubusercontent.com/74271621/150535945-5a0072e6-b370-4db3-881e-820ad37ff168.png)
 
 
 ## Supported deviced (jan 2022)
