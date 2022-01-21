@@ -16,7 +16,7 @@ https://community.smartthings.com/t/new-release-new-edge-beta-driver-zigbee-envi
 
 You can control the BME280 Environment Sensor and other similar models developed by @iharyadi
 
-This controller shows in the App a single device with the capabilities and functions:
+This controller shows in the App a single device with the capabilities and functions. Run Local in Hub:
 
 Temperature
 
@@ -39,6 +39,23 @@ Analog Output: Controllable output of 3 vdc or 0vdc
 This is the Link to Edge driver Channel
 
 https://account.smartthings.com/?redirect=https%3A%2F%2Fapi.smartthings.com%2Finvite%2FakMX10g0GA2b%3F
+
+  With Edge Driver "Zigbee Environment Sensor"
+ ![Screenshot_20220111-133638](https://user-images.githubusercontent.com/74271621/150534286-f6d3c3e9-7a39-442b-af0c-48db3d4fdf19.png)
+
+
+- Can be used as Environment Sensor withot External inputs and output:
+
+    -  As Temperature, Humidity, Atmospheric pressure and Illuminance, with Edge Driver "Zigbee Temp Humidity Sensor Mc"
+    
+    ![Screenshot_20220107-183133](https://user-images.githubusercontent.com/74271621/150534415-59f7fd91-07e8-4e4f-8a62-9d2edfa8605a.png)
+
+
+    -  As Complete Thermostat working locally, with Edge Driver "Zigbee Temp Sensor with Thermostat Mc"
+   ![Screenshot_20220121-131710-2](https://user-images.githubusercontent.com/74271621/150534721-448941e0-bd94-4900-b1df-bb5189fb27a4.png)
+
+   
+   ![Screenshot_20220121-131731](https://user-images.githubusercontent.com/74271621/150534463-5bc93948-a108-4b55-991e-9f090b6ed77c.png)
 
 
 ## Supported deviced (jan 2022)
