@@ -198,7 +198,7 @@ local function do_init(self, device)
     device:set_field("motion_Sensor_Enable", "Enabled", {persist = true})
     device:emit_event(motion_Sensor_Enable.motionSensorEnable(device:get_field("motion_Sensor_Enable")))
   end
-
+  --- Initialice Presence Timer
   presence_timer_handler(self, device)
 
 end
