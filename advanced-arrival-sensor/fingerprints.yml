@@ -1,0 +1,6 @@
+zigbeeManufacturer:
+  - id: "SmartThings/tagv4"
+    deviceLabel: Advanced Arrival Sensor tagv4
+    manufacturer: SmartThings
+    model: tagv4
+    deviceProfileName: presence-temp-motion-acc-batt
