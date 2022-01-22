@@ -24,7 +24,11 @@ https://community.smartthings.com/t/introducing-advance-arrival-sensor/238282?u=
 zigbeeManufacturer:
 
   - id: "SmartThings/tagv4"
+
     deviceLabel: Advanced Arrival Sensor tagv4
+
     manufacturer: SmartThings
+
     model: tagv4
+
     deviceProfileName: presence-temp-motion-acc-batt
