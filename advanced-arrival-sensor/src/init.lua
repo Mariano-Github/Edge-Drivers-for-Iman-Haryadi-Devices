@@ -37,7 +37,7 @@ local PowerConfiguration = zcl_clusters.PowerConfiguration
 local clusters = require "st.zigbee.zcl.clusters"
 local IlluminanceMeasurement = clusters.IlluminanceMeasurement
 
----- Analoginput and binaryinput clusters and attributes
+----  binaryinput clusters and attributes
 local BasicInput = zcl_clusters.BasicInput
 local data_types = require "st.zigbee.data_types"
 local cluster_base_index = require "st.zigbee.cluster_base"
@@ -166,14 +166,23 @@ local function do_preferences(self, device)
         print ("Temp maxTime & changeRep: ", maxTime, changeRep)
         device:send(device_management.build_bind_request(device, tempMeasurement.ID, self.environment_info.hub_zigbee_eui))
         device:send(tempMeasurement.attributes.MeasuredValue:configure_reporting(device, 60, maxTime, changeRep))
-       ------ Change profile multi or single tile
+
+        ------ Change profile multi or single tile
       elseif id == "changeProfile" then
+       if device:get_field("motion_Sensor_Enable") == "Enabled" then
         if device.preferences.changeProfile == "Single" then
          device:try_update_metadata({profile = "presence-temp-motion-acc-batt"})
         elseif device.preferences.changeProfile == "Multi" then
          device:try_update_metadata({profile = "presence-temp-motion-acc-batt-multi"})
         end 
+       else
+        if device.preferences.changeProfile == "Single" then
+          device:try_update_metadata({profile = "presence-temp-acc-batt"})
+        elseif device.preferences.changeProfile == "Multi" then
+          device:try_update_metadata({profile = "presence-temp-acc-batt-multi"})        
+        end
       end
+     end
     end
   end
 end
