@@ -30,7 +30,8 @@ This driver runs locally on the Hub, without need for an internet connection.
 
     -  As Complete Thermostat working locally, with Edge Driver "Zigbee Temp Sensor with Thermostat Mc"
  
- ![ce04e1d9f511100293ac235da0f33b6ff2693b65](https://user-images.githubusercontent.com/74271621/150632477-e22d5fb6-93fd-48b7-9fa6-d18c5c3490da.jpeg)
+![ce04e1d9f511100293ac235da0f33b6ff2693b65-2](https://user-images.githubusercontent.com/74271621/150632556-d1208ecf-66e9-4e81-b3c6-ac7f65cd29f2.jpg)
+
 
  
   ## Supported deviced (jan 2022)
