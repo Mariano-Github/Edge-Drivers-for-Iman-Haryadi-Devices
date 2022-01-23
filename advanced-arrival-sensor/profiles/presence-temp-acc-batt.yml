@@ -87,7 +87,7 @@ preferences:
     definition:
       minimum: 2.0
       maximum: 4
-      default: 3.0
+      default: 2.0
   - name: "battMaxVolts"
     title: "Volts to Battery 100% (volts)"
     description: "Enter Volts to Battery 100% (volts)"
