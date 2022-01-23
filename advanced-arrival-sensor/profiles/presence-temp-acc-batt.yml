@@ -85,7 +85,7 @@ preferences:
     required: false
     preferenceType: number
     definition:
-      minimum: 2.0
+      minimum: 1.0
       maximum: 4
       default: 2.0
   - name: "battMaxVolts"
