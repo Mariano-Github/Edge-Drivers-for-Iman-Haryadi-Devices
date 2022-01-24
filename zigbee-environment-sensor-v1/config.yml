@@ -1,0 +1,4 @@
+name: 'Zigbee Environment Sensor'
+packageKey: 'Zigbee_Enviroment_Sensor-v1'
+permissions:
+  zigbee: {}

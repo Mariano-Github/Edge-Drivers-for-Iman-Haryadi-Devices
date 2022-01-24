@@ -1,0 +1,159 @@
+name: temp-humid-press-illumin
+components:
+- id: main
+  capabilities:
+  - id: temperatureMeasurement
+    version: 1
+  - id: relativeHumidityMeasurement
+    version: 1
+  - id: motionSensor
+    version: 1
+  - id: waterSensor
+    version: 1
+  - id: legendabsolute60149.moistureWaterSensor
+    version: 1
+  - id: voltageMeasurement
+    version: 1
+  - id: atmosphericPressureMeasurement
+    version: 1
+  - id: legendabsolute60149.atmosPressure
+    version: 1
+  - id: illuminanceMeasurement
+    version: 1
+  - id: legendabsolute60149.binaryInputEnable
+    version: 1
+  - id: legendabsolute60149.analogInputEnable
+    version: 1
+  - id: legendabsolute60149.binaryOutputEnable
+    version: 1
+  - id: refresh
+    version: 1
+  categories:
+  - name: Thermostat
+preferences:
+  - preferenceId: tempOffset
+    explicit: true  
+  - preferenceId: humidityOffset
+    explicit: true
+  - name: "version"
+    title: "Version 1.0 (Dic 2021)"
+    description: "First Release" 
+    required: false
+    preferenceType: string
+    definition:
+      stringType: text
+      minLength: 0
+      maxLength: 0
+      default: ""
+  - name: "wetLevel"
+    title: "Threshold Voltage for Wet State (v)"
+    description: "Threshold voltage for Wet State 1 volt to 2.5 volt"
+    required: false
+    preferenceType: number
+    definition:
+      minimum: 1
+      maximum: 2.5
+      default: 1.8
+  - name: "voltsRepChange"
+    title: "Voltage Reportable Change (v)"
+    description: "Voltage Reportable Change 0.01 volts to 0.2 volts (0.01 to 0.2)"
+    required: false
+    preferenceType: number
+    definition:
+      minimum: 0.1
+      maximum: 2
+      default: 0.1
+  - name: "voltsWetLevel0"
+    title: "Volts to 0% Wet (Max Dry volts)"
+    description: "Enter Volts to 0% Wet (Max Dry volts)"
+    required: false
+    preferenceType: number
+    definition:
+      minimum: 1
+      maximum: 4
+      default: 2.2
+  - name: "voltsWetLevel100"
+    title: "Volts to 100% Wet (Min Wet volts)"
+    description: "Enter Volts to 100% Wet (Min Wet volts)"
+    required: false
+    preferenceType: number
+    definition:
+      minimum: 1
+      maximum: 4
+      default: 1.2
+  - name: "temMaxTime"
+    title: "Temperature Report Interval (min)"
+    description: "Select Temp. Report Max. Interval (5 min to 300 min)"
+    required: false
+    preferenceType: integer
+    definition:
+      minimum: 5
+      maximum: 300
+      default: 15   
+  - name: "temChangeRep"
+    title: "Temperature Reportable Change"
+    description: "Select Temp. Reportable Change 0.1º to 6º"
+    required: false
+    preferenceType: number
+    definition:
+      minimum: 0.1
+      maximum: 6
+      default: 1
+  - name: "humiMaxTime"
+    title: "Humidity Report Interval (min)"
+    description: "Select Humidity Report Max. Interval (5 min to 300 min)"
+    required: false
+    preferenceType: integer
+    definition:
+      minimum: 5
+      maximum: 300
+      default: 30   
+  - name: "humiChangeRep"
+    title: "Humidity Reportable Change (%)"
+    description: "Select Humidity Reportable Change 1% to 10%"
+    required: false
+    preferenceType: integer
+    definition:
+      minimum: 1
+      maximum: 10
+      default: 2
+  - name: "illuMaxTime"
+    title: "Illuminance Report Interval (min)"
+    description: "Select Illuminance Report Max. Interval (5 min to 300 min)"
+    required: false
+    preferenceType: integer
+    definition:
+      minimum: 5
+      maximum: 300
+      default: 15   
+  - name: "illuChangeRep"
+    title: "Illuminance Reportable Change (lux)"
+    description: "Select Illuminance Reportable Change 1 Lux to 30 Lux"
+    required: false
+    preferenceType: integer
+    definition:
+      minimum: 1
+      maximum: 30
+      default: 15
+  - name: "pressMaxTime"
+    title: "At. Pressure Report Interval (min)"
+    description: "Select At. Pressure Report Max. Interval (5 min to 300 min)"
+    required: false
+    preferenceType: integer
+    definition:
+      minimum: 5
+      maximum: 300
+      default: 30   
+  - name: "pressChangeRep"
+    title: "At. Pressure Reportable Change (kPa)"
+    description: "Select At. Pressure Reportable Change 0.1 kPa to 5 kPa"
+    required: false
+    preferenceType: number
+    definition:
+      minimum: 0.1
+      maximum: 5
+      default: 1
+metadata:
+  deviceType: Thermostat	
+  ocfDeviceType: oic.d.thermostat
+  deviceTypeId: Thermostat
