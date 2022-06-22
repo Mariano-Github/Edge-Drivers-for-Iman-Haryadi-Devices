@@ -7,14 +7,7 @@ I thought it would be fun to make one myself. I started to make one with the sam
 
 I added motion sensor and vibration sensor to help securing my car while it is parked outside the house.
 
-This driver runs locally on the Hub, without need for an internet connection. 
-
-![image](https://user-images.githubusercontent.com/74271621/150632312-06ad4840-d8c3-4ef2-b47d-9fe559e9cdf0.png)
-
-
-Link to Driver Channel download
-
-https://account.smartthings.com/?redirect=https:%2F%2Fapi.smartthings.com%2Finvite%2FOzMgQxvJyAl9?
+This driver runs locally on the Hub, without need for an internet connection.  
 
 Link to SmartThings Community presentation:
 
@@ -24,11 +17,7 @@ https://community.smartthings.com/t/introducing-advance-arrival-sensor/238282?u=
 zigbeeManufacturer:
 
   - id: "SmartThings/tagv4"
-
     deviceLabel: Advanced Arrival Sensor tagv4
-
     manufacturer: SmartThings
-
     model: tagv4
-
     deviceProfileName: presence-temp-motion-acc-batt

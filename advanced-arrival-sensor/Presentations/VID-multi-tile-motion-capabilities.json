@@ -1,14 +1,13 @@
 {
     "mnmn": "SmartThingsCommunity",
-    "vid": "327d941f-1d9c-3484-b0df-9810383cc690",
+    "vid": "6bb5d5c1-1556-346b-a277-4172434ae33e",
     "version": "0.0.1",
     "type": "profile",
-    "iconUrl": null,
     "dashboard": {
         "states": [
             {
                 "component": "main",
-                "capability": "presenceSensor",   
+                "capability": "presenceSensor",
                 "version": 1,
                 "idx": 0,
                 "group": "main",
@@ -17,7 +16,7 @@
             },
             {
                 "component": "main",
-                "capability": "motionSensor",     
+                "capability": "motionSensor",
                 "version": 1,
                 "idx": 0,
                 "group": "Motion Sensor",
@@ -52,7 +51,8 @@
                 "composite": true
             }
         ],
-        "actions": []
+        "actions": [],
+        "basicPlus": []
     },
     "detailView": [
         {
@@ -197,6 +197,6 @@
             }
         ]
     },
-    "presentationId": "327d941f-1d9c-3484-b0df-9810383cc690",
+    "presentationId": "6bb5d5c1-1556-346b-a277-4172434ae33e",
     "manufacturerName": "SmartThingsCommunity"
 }

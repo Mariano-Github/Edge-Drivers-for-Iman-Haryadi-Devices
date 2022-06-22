@@ -208,7 +208,7 @@ local function do_init(self, device)
     if last_battery_value == nil then last_battery_value = 0 end
     device:set_field("last_battery_value", last_battery_value, {persist = false})
   end
-  print("motion_Sensor_Enable >>>>>>",device:get_latest_state("main", motion_Sensor_Enable.ID, motion_Sensor_Enable.motionSensorEnable.NAME))
+  print("motion_Sensor_Enable >>>>>>", device:get_latest_state("main", motion_Sensor_Enable.ID, motion_Sensor_Enable.motionSensorEnable.NAME))
   if device:get_field("motion_Sensor_Enable") == nil then
     local motion_Sensor_Enabled = device:get_latest_state("main", motion_Sensor_Enable.ID, motion_Sensor_Enable.motionSensorEnable.NAME)
     if motion_Sensor_Enabled == nil then motion_Sensor_Enabled = "Enabled" end

@@ -4,3 +4,8 @@ zigbeeManufacturer:
     manufacturer: SmartThings
     model: tagv4
     deviceProfileName: presence-temp-motion-acc-batt
+  - id: "KMPCIL/tagv1"
+    deviceLabel: Advanced Arrival Sensor tagv1
+    manufacturer: KMPCIL
+    model: tagv1
+    deviceProfileName: presence-temp-motion-acc-batt

@@ -1,9 +1,8 @@
 {
     "mnmn": "SmartThingsCommunity",
-    "vid": "9b735228-d5be-3c17-a5f5-2f176774f3c2",
+    "vid": "dafee7b1-243b-3e0a-a713-a31f0f50a9a8",
     "version": "0.0.1",
     "type": "profile",
-    "iconUrl": null,
     "dashboard": {
         "states": [
             {
@@ -16,7 +15,8 @@
                 "composite": true
             }
         ],
-        "actions": []
+        "actions": [],
+        "basicPlus": []
     },
     "detailView": [
         {
@@ -161,6 +161,6 @@
             }
         ]
     },
-    "presentationId": "9b735228-d5be-3c17-a5f5-2f176774f3c2",
+    "presentationId": "dafee7b1-243b-3e0a-a713-a31f0f50a9a8",
     "manufacturerName": "SmartThingsCommunity"
 }
