@@ -2,24 +2,24 @@
     "dashboard": {
         "states": [
             {
-                "label": "{{analogInputEnable.value}}"
+                "label": "{{binaryOutputEnable.value}}"
             }
         ],
         "actions": []
     },
     "detailView": [
         {
-            "label": "Analog Input: Water Sensor",
+            "label": "Binary Output:(3 vdc)",
             "displayType": "switch",
             "switch": {
                 "command": {
-                    "name": "setAnalogInputEnable",
+                    "name": "setBinaryOutputEnable",   
                     "on": "Enabled",
                     "off": "Disabled",
                     "argumentType": "string"
                 },
                 "state": {
-                    "value": "analogInputEnable.value",
+                    "value": "binaryOutputEnable.value",
                     "valueType": "string",
                     "on": "Enabled",
                     "off": "Disabled",
@@ -43,7 +43,7 @@
     "automation": {
         "conditions": [
             {
-                "label": "Analog Input: Water Sensor",
+                "label": "Binary Output:(3 vdc)",
                 "displayType": "list",
                 "list": {
                     "alternatives": [
@@ -58,14 +58,14 @@
                             "type": "inactive"
                         }
                     ],
-                    "value": "analogInputEnable.value",
+                    "value": "binaryOutputEnable.value",
                     "valueType": "string"
                 }
             }
         ],
         "actions": [
             {
-                "label": "Analog Input: Water Sensor",
+                "label": "Binary Output:(3 vdc)",
                 "displayType": "list",
                 "list": {
                     "alternatives": [
@@ -80,12 +80,12 @@
                             "type": "inactive"
                         }
                     ],
-                    "command": "setAnalogInputEnable",
+                    "command": "setBinaryOutputEnable",
                     "argumentType": "string"
                 }
             }
         ]
     },
-    "id": "legendabsolute60149.analogInputEnable",
+    "id": "legendabsolute60149.binaryOutputEnable",
     "version": 1
 }
